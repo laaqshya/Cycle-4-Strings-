@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    char s[10],i,l;
+    char s[10];
+    int i,l;
     printf("enter string: ");
     gets(s);
     for(i=0;s[i]!='\0';i++);
