@@ -9,7 +9,7 @@ int main() {
     printf("Enter %d strings:\n", n);
     for(i = 0; i < n; i++) 
         gets(s[i]);  
-    printf("\nTable of Strings:\n");
+    printf("Table of Strings:\n");
     for(i = 0; i < n; i++) 
         puts(s[i]);   
     return 0;
