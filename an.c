@@ -22,11 +22,10 @@ int main(){
                 break;
             }
         }
-        if(f==0)
-            printf("not annagrams");
-            break;
     }
     if(f==1)
     printf("annagrams");
+    else
+    printf("not annagrams");
   return 0; 
 }
