@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(){
+int main()
+{
     char s1[100],s2[100];
     int i,j,l1,l2,f=0;
     printf("enter s1:\n");
@@ -22,10 +23,11 @@ int main(){
                 break;
             }
         }
+        if(f==0)
+            printf("not annagrams");
+            break;
     }
     if(f==1)
     printf("annagrams");
-    else
-    printf("not annagrams");
   return 0; 
 }
